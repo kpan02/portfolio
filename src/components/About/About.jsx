@@ -7,19 +7,11 @@ const About = () => {
     return (
         <div className="app__about">
             <div className="app__about-content">
-                <motion.div
-                    whileInView={{ opacity: [0, 1] }}
-                    transition={{ duration: 0.5 }}
-                    className="app__about-img"
-                >
+                <motion.div className="app__about-img">
                     <img src={headshot} alt="Kevin Pan headshot" />
                 </motion.div>
 
-                <motion.div
-                    whileInView={{ opacity: [0, 1], x: [50, 0] }}  // Changed y to x for side slide
-                    transition={{ duration: 0.5 }}
-                    className="app__about-text"
-                >
+                <motion.div className="app__about-text">
                     <h2>Kevin Pan</h2>
                     <h4>🎓&nbsp;Computer Science @ Cornell Tech / Vanderbilt</h4>
                     <h4>🗽&nbsp;&nbsp;New York City</h4>

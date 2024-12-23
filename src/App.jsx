@@ -4,7 +4,6 @@ import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
 import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
-import Resume from './components/Resume/Resume';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -22,7 +21,6 @@ const App = () => {
           <Route path="/experience" element={<Experience />} />
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

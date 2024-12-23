@@ -48,7 +48,7 @@ const Contact = () => {
                     <span>GitHub</span>
                 </a>
 
-                <a 
+                {/* <a 
                     href="https://www.instagram.com/kkwpan/" 
                     className="contact-card"
                     target="_blank"
@@ -56,7 +56,7 @@ const Contact = () => {
                 >
                     <FaInstagram />
                     <span>Instagram</span>
-                </a>
+                </a> */}
             </div>
         </div>
     );
