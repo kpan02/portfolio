@@ -3,8 +3,12 @@ import { motion } from 'framer-motion';
 
 function About() {
     return (
-        <div className="app__about app__flex">
-
+        <div>
+            <h1>About</h1>
+            <h1>About</h1>
+            <h1>About</h1>
+            <h1>About</h1>
+            <h1>About</h1>
         </div>
     );
 }

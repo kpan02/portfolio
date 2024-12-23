@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
                 {['about', 'experience', 'education', 'projects', 'resume', 'contact'].map((item) => (
                     <li className="app__flex p-text" key={`link-${item}`}>
                         <div />
-                        <a href={`${item}`}>{item}</a>
+                        <Link to={`/${item}`}>{item}</Link>
                     </li>
                 ))}
             </ul>
@@ -36,9 +37,9 @@ const Navbar = () => {
                     <ul>
                         {['about', 'experience', 'education', 'projects', 'resume', 'contact'].map((item) => (
                             <li key={item}>
-                                <a href={`${item}`} onClick={() => setToggle(false)}>
+                                <Link to={`/${item}`} onClick={() => setToggle(false)}>
                                     {item}
-                                </a>
+                                </Link>
                             </li>
                         ))}
                     </ul>
