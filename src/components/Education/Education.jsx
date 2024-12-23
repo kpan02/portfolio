@@ -4,10 +4,63 @@ import cornellLogo from '../../assets/cornell-logo.jpeg';
 import vandyLogo from '../../assets/vanderbilt-logo.png';
 import './Education.css';
 
+const courseData = {
+    graduate: {
+        title: "Computer Science (Graduate)",
+        courses: [
+            "Applied Machine Learning",
+            "Machine Learning Engineering",
+            "Advanced Algorithms",
+            "HCI and Design",
+            "Product Development Studio"
+        ]
+    },
+    undergraduate: {
+        title: "Computer Science",
+        courses: [
+            "Data Structures",
+            "Algorithms",
+            "Software Engineering",
+            "Database Systems",
+            "Operating Systems",
+            "Java Programming",
+            "Discrete Math",
+            "Software Design",
+            "Computers & Ethics",
+            "Digital Systems",
+            "Programming Languages",
+            "Independent Research",
+            "Network Analysis",
+            "Virtual Reality Design",
+            
+        ]
+    },
+    hod: {
+        title: "Human & Organizational Development",
+        courses: [
+            "Applied Human Development",
+            "Leadership Theory",
+            "Systems Thinking",
+            "Understanding Organizations",
+            "Talent Management",
+            "Systematic Inquiry",
+            "Public Policy",
+            "Advanced Organizational Theory",
+            "Small Group Behavior",
+            "Evidence-based Practice in Organizations",
+            "Education & Economic Development",
+            "Continuous Improvement in Organizations",
+            "Capstone Internship",
+            
+        ]
+    }
+};
+
 function Education() {
     return (
         <div className="app__education">
             <motion.div className="app__education-content">
+                <div style={{ height: '2rem' }}></div>
                 <h2>Education</h2>
                 
                 <div className="education-item">
@@ -32,6 +85,25 @@ function Education() {
                         <h4>Bachelor of Science in Computer Science</h4>
                         <h4>Bachelor of Science in Human & Organizational Development</h4>
                     </div>
+                </div>
+
+                <div style={{ height: '1rem' }}></div>
+
+                <div className="coursework-section">
+                    <div style={{ height: '1rem' }}></div>
+                    <h3>Coursework</h3>
+                    {Object.values(courseData).map((category, index) => (
+                        <motion.div key={index} className="course-category-container">
+                            <h4>{category.title}</h4>
+                            <div className="course-list">
+                                {category.courses.map((course, courseIndex) => (
+                                    <span key={courseIndex} className="course-tag">
+                                        {course}
+                                    </span>
+                                ))}
+                            </div>
+                        </motion.div>
+                    ))}
                 </div>
             </motion.div>
         </div>
