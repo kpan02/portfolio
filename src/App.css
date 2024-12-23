@@ -1,5 +1,5 @@
 .app {
-  background-color: var(--primary-color);
+  background-color: var(--white-color);
   font-family: var(--font-base);
   min-height: 100vh;
 }
@@ -81,7 +81,7 @@ html, body {
 .p-text {
   font-size: 0.8rem;
   text-align: left;
-  color: var(--gray-color);
+  color: var(--black-color);
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {

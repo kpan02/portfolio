@@ -5,13 +5,15 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  --primary-color: #edf2fb;
+  --primary-color: #edf4fb;
   --secondary-color: #474973;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
+  --banner-color: #edf4fb;
+  --contact-card-text-color: #474973;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

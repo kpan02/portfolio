@@ -15,7 +15,8 @@ const Contact = () => {
 
     return (
         <div className="app__contact">
-            <h2>Let's Connect!</h2>
+            <h2>Let's Connect 🤝</h2>
+            <div style={{ height: '2rem' }}></div>
             
             <div className="app__contact-cards">
                 <div 
@@ -28,7 +29,7 @@ const Contact = () => {
                 </div>
 
                 <a 
-                    href="https://linkedin.com/in/your-profile" 
+                    href="https://linkedin.com/in/kevinpan02" 
                     className="contact-card"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -38,7 +39,7 @@ const Contact = () => {
                 </a>
 
                 <a 
-                    href="https://github.com/your-username" 
+                    href="https://github.com/kpan02" 
                     className="contact-card"
                     target="_blank"
                     rel="noopener noreferrer"
