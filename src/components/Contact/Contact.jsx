@@ -54,7 +54,7 @@ const Contact = () => {
                 </a>
 
                 {/* <a 
-                    href="https://www.instagram.com/kkwpan/" 
+                    href="https://www.instagram.com/easymoneysniper/" 
                     className="contact-card"
                     target="_blank"
                     rel="noopener noreferrer"

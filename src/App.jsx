@@ -5,7 +5,7 @@ import Experience from './components/Experience/Experience';
 import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 import { useState } from 'react'
 import './App.css'
@@ -16,7 +16,7 @@ const App = () => {
       <div className="app">
         <Navbar />
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<Navigate to="/about" replace />} />
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/education" element={<Education />} />
