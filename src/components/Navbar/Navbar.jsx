@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
+    const location = useLocation();
+    
+    // Helper function to check if the link is active
+    const isActive = (path) => {
+        return location.pathname === `/${path}`;
+    };
         
     return (
         <nav className="app__navbar">
@@ -13,7 +19,12 @@ const Navbar = () => {
                 {['about', 'experience', 'education', 'projects', 'contact'].map((item) => (
                     <li className="app__flex p-text" key={`link-${item}`}>
                         <div />
-                        <Link to={`/${item}`}>{item}</Link>
+                        <Link 
+                            to={`/${item}`}
+                            className={isActive(item) ? 'active' : ''}
+                        >
+                            {item}
+                        </Link>
                     </li>
                 ))}
             </ul>
@@ -37,7 +48,11 @@ const Navbar = () => {
                     <ul>
                         {['about', 'experience', 'education', 'projects', 'contact'].map((item) => (
                             <li key={item}>
-                                <Link to={`/${item}`} onClick={() => setToggle(false)}>
+                                <Link 
+                                    to={`/${item}`} 
+                                    onClick={() => setToggle(false)}
+                                    className={isActive(item) ? 'active' : ''}
+                                >
                                     {item}
                                 </Link>
                             </li>

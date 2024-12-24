@@ -50,6 +50,23 @@
             &:hover {
                 color: var(--black-color);
             }
+
+            &.active {
+                font-weight: 600;
+                color: var(--black-color);
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    bottom: -1px;
+                    width: 25px; /* fixed underline width */
+                    height: 2px;
+                    background-color: var(--black-color);
+                    transform: translateX(-50%);
+                }
+            }
         }
 
         &:hover {
@@ -142,6 +159,23 @@
 
                 &:hover {
                     color: var(--black-color);
+                }
+
+                &.active {
+                    font-weight: 700;
+                    color: var(--secondary-color);
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        left: 50%;
+                        bottom: -4px;
+                        width: 25px; /* fixed underline width */
+                        height: 2px;
+                        background-color: var(--secondary-color);
+                        transform: translateX(-50%);
+                    }
                 }
             }
         }
