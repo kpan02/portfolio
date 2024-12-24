@@ -1,0 +1,34 @@
+Applied Machine Learning - https://kuleshov-group.github.io/aml-website/
+Machine Learning Engineering - https://classes.cornell.edu/browse/roster/FA24/class/CS/5781
+Advanced Algorithms - https://github.com/ajhconway/cs5112-fall2024
+HCI and Design - https://classes.cornell.edu/browse/roster/FA24/class/CS/5682
+Product Development Studio - https://tech.cornell.edu/studio/curriculum/product-studio/
+
+Data Structures - https://www.vanderbilt.edu/catalogs/kuali/undergraduate-24-25.php#/courses/Hy3itpn2O?group=Computer%20Science&bc=true&bcCurrent=Computer%20Science&bcItemType=courses&bc=true&bcCurrent=CS2201%20-%20Program%20Design%20and%20Data%20Structures&bcGroup=Computer%20Science&bcItemType=courses
+Algorithms - https://www.vanderbilt.edu/catalogs/kuali/undergraduate-24-25.php#/courses/r1LBSvTn3u?bc=true&bcCurrent=CS3250%20-%20Algorithms&bcGroup=Computer%20Science&bcItemType=courses
+Software Engineering - https://huang.isis.vanderbilt.edu/cs4278/
+Database Systems - https://www.vanderbilt.edu/catalogs/kuali/undergraduate-24-25.php#/courses/rk73oFannO?bc=true&bcCurrent=CS3265%20-%20Database%20Management%20Systems&bcGroup=Computer%20Science&bcItemType=courses
+Operating Systems - 
+Java Programming - 
+Discrete Math - 
+Software Design - 
+Computers & Ethics - 
+Digital Systems - 
+Programming Languages - 
+Independent Research - 
+Network Analysis - 
+Virtual Reality Design - 
+
+Applied Human Development - 
+Leadership Theory - 
+Systems Thinking - 
+Understanding Organizations - 
+Talent Management - 
+Systematic Inquiry - 
+Public Policy - 
+Advanced Organizational Theory - 
+Small Group Behavior - 
+Evidence-based Practice in Organizations - 
+Education & Economic Development - 
+Continuous Improvement in Organizations - 
+Capstone Internship - 

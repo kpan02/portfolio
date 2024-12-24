@@ -9,7 +9,7 @@
 }
 
 .app__education-content {
-    max-width: 700px;
+    max-width: 750px;
     width: 100%;
     padding: 2rem;
 }
@@ -81,7 +81,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #666;
     font-weight: 10;
 }
@@ -150,11 +150,11 @@
     margin-bottom: 1.5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
+/* 
 .course-category-container:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .course-category-container h4 {
     font-size: 1.4rem;
@@ -178,10 +178,11 @@
     border-radius: 13px;
     font-size: 0.9rem;
     transition: all 0.3s ease;
+    font-family: "SF Mono", SFMono-Regular, ui-monospace, monospace;
 }
 
 .course-tag:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 

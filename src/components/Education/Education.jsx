@@ -32,7 +32,6 @@ const courseData = {
             "Independent Research",
             "Network Analysis",
             "Virtual Reality Design",
-            
         ]
     },
     hod: {
@@ -51,7 +50,6 @@ const courseData = {
             "Education & Economic Development",
             "Continuous Improvement in Organizations",
             "Capstone Internship",
-            
         ]
     }
 };
