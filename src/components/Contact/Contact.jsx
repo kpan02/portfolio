@@ -15,7 +15,12 @@ const Contact = () => {
 
     return (
         <div className="app__contact">
-            <h2>Let's Connect 🤝</h2>
+            <div style={{ height: '2rem' }}></div>
+
+            <div className="app__contact-header">
+                <h2>Get in Touch</h2>
+            </div>
+
             <div style={{ height: '2rem' }}></div>
             
             <div className="app__contact-cards">
@@ -57,6 +62,11 @@ const Contact = () => {
                     <FaInstagram />
                     <span>Instagram</span>
                 </a> */}
+            </div>
+
+
+            <div className="app__contact-footer">
+                <p>💡 Interested in this portfolio? Check out the repo <a href="https://github.com/kpan02/portfolio">here</a>.</p>
             </div>
         </div>
     );

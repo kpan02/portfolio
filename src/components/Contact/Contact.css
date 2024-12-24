@@ -4,12 +4,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 2rem;
 }
 
 .app__contact h2 {
     font-size: var(--section-header-font-size);
+    margin-top: 4rem;
     margin-bottom: 3rem;
     color: var(--black-color);
 }
@@ -53,8 +53,20 @@
     font-weight: 500;
 }
 
+.app__contact-footer {
+    margin-top: auto;
+    padding-bottom: 2rem;
+    font-size: 0.8rem;
+    color: var(--black-color);
+    font-family: "SF Mono", SFMono-Regular, ui-monospace, monospace;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
+    .app__contact h2 {
+        margin-top: 2rem;
+    }
+
     .contact-card {
         width: 150px;
         height: 150px;
