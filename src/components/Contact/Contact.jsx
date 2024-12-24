@@ -10,7 +10,7 @@ const Contact = () => {
     const handleCopyEmail = () => {
         navigator.clipboard.writeText(email);
         setCopied(true);
-        setTimeout(() => setCopied(false), 1000); // Reset after 2 seconds
+        setTimeout(() => setCopied(false), 1000);
     };
 
     return (
