@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import cornellLogo from '../../assets/cornell-logo.jpeg'; 
 import vandyLogo from '../../assets/vanderbilt-logo.png';
+import { courseLinks } from './courseLinks';
 import './Education.css';
 
 const courseData = {
@@ -27,7 +28,7 @@ const courseData = {
             "Discrete Math",
             "Software Design",
             "Computers & Ethics",
-            "Digital Systems",
+            "Computer Architecture",
             "Programming Languages",
             "Independent Research",
             "Network Analysis",
@@ -95,9 +96,15 @@ function Education() {
                             <h4>{category.title}</h4>
                             <div className="course-list">
                                 {category.courses.map((course, courseIndex) => (
-                                    <span key={courseIndex} className="course-tag">
+                                    <a 
+                                        key={courseIndex} 
+                                        href={courseLinks[course]} 
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="course-tag"
+                                    >
                                         {course}
-                                    </span>
+                                    </a>
                                 ))}
                             </div>
                         </motion.div>
