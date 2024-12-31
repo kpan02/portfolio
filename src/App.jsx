@@ -4,15 +4,16 @@ import Education from './components/Education/Education';
 import Experience from './components/Experience/Experience';
 import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
+import ScrollToTop from './components/ScrollToTop';
 
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
-import { useState } from 'react'
 import './App.css'
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app">
         <Navbar />
         <Routes>
