@@ -5,7 +5,13 @@ export const courseLinks = {
     "Advanced Algorithms": "https://classes.cornell.edu/browse/roster/FA24/class/CS/5112",
     "HCI and Design": "https://classes.cornell.edu/browse/roster/FA24/class/CS/5682",
     "Product Development Studio": "https://tech.cornell.edu/studio/curriculum/product-studio/",
-    
+    "Startup Studio": "https://tech.cornell.edu/studio/curriculum/startup-studio/",
+    "Venture Capital": "https://classes.cornell.edu/browse/roster/SP25/class/TECH/5130",
+    "Full Stack Development": "https://classes.cornell.edu/browse/roster/SP25/class/CS/5356",
+    "Data Engineering": "https://classes.cornell.edu/browse/roster/SP25/class/CS/5304",
+    "Machine Learning Hardware": "https://abdelfattah-class.github.io/ece5545/",
+    "Security and Privacy": "https://classes.cornell.edu/browse/roster/SP25/class/TECH/5270",
+
     // Undergraduate CS courses
     "Data Structures": "https://www.vanderbilt.edu/catalogs/kuali/undergraduate-24-25.php#/courses/Hy3itpn2O?group=Computer%20Science&bc=true&bcCurrent=Computer%20Science&bcItemType=courses&bc=true&bcCurrent=CS2201%20-%20Program%20Design%20and%20Data%20Structures&bcGroup=Computer%20Science&bcItemType=courses",
     "Algorithms": "https://www.vanderbilt.edu/catalogs/kuali/undergraduate-24-25.php#/courses/r1LBSvTn3u?bc=true&bcCurrent=CS3250%20-%20Algorithms&bcGroup=Computer%20Science&bcItemType=courses",

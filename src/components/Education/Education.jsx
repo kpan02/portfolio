@@ -11,11 +11,18 @@ const courseData = {
         courses: [
             "Applied Machine Learning",
             "Machine Learning Engineering",
+            "Data Engineering",
+            "Machine Learning Hardware",
+            "Full Stack Development",
             "Advanced Algorithms",
+            "Product Development Studio",
+            "Startup Studio",
             "HCI and Design",
-            "Product Development Studio"
+            "Venture Capital",
+            "Security and Privacy",
         ]
     },
+
     undergraduate: {
         title: "Computer Science",
         courses: [
